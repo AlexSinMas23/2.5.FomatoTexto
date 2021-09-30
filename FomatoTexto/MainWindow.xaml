@@ -7,17 +7,20 @@
         mc:Ignorable="d"
         Title="Dar formto a texto"
         Icon="img/32.ico"
-        d:DesignWidth="380" d:DesignHeight="265"
-        MaxWidth="380" MaxHeight="265"
+        d:DesignWidth="400" d:DesignHeight="265"
+        MaxWidth="400" MaxHeight="265"
         MinWidth="180" MinHeight="100">
     <Grid>
         <TextBox
-            x:Name="cajaFormaTexto"
+            x:Name="cajaTexto"
             TextWrapping="Wrap"
             FontSize="18"
             TextChanged="cajaFormaTexto_TextChanged" 
-            HorizontalAlignment="Right" 
-            Width="302" VerticalAlignment="Center" Margin="0,0,70,40" Height="199"/>
+            HorizontalAlignment="Right"
+            VerticalAlignment="Center" 
+            Margin="0,0,70,36"
+            Width="315"
+            Height="198"/>
 
         <TextBlock
             x:Name="textoTrim" 
